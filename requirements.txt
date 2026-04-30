@@ -1,0 +1,11 @@
+docker
+fastapi
+uvicorn
+openai
+python-dotenv
+streamlit
+langgraph
+langchain
+faiss-cpu
+sentence-transformers
+torchvision

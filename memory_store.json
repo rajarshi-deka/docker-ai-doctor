@@ -1,0 +1,394 @@
+[
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": true
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "restart",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Crash!')\n^\n\nError: Crash!\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Crash!'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  },
+  {
+    "logs_snippet": "    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/execution:114:10)\n    at node:internal/main/eval_string:30:3\n\nNode.js v18.20.8\n[eval]:1\nthrow new Error('Boom')\n^\n\nError: Boom\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:143:10)\n    at node:internal/process/execution:100:14\n    at [eval]-wrapper:6:24\n    at runScript (node:internal/process/execution:83:62)\n    at evalScript (node:internal/process/exe",
+    "root_cause": "An error is being thrown from the eval context indicating that the script has encountered a critical failure ('Boom'). This is possibly a result of an unexpected condition or an uncaught exception within the eval execution.",
+    "severity": "High",
+    "fix": "Check the logic of the eval script for errors. Ensure that all variables and methods being used are defined and handled appropriately to avoid throwing runtime errors. If the script is dependent on external inputs, validate these inputs before executing. Additionally, wrapping the eval function in try-catch blocks can help manage exceptions gracefully.",
+    "action": "none",
+    "executed": false
+  }
+]
